@@ -11,7 +11,7 @@ public class AccesoLista {
             System.out.println("Ingrese la posicion: ");
             dato = scanner.nextInt();
             System.out.println (lista[dato]);
-        } catch (IndexOutOfBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("La posicion no existe en la lista.");
         }finally {
             scanner.close();

@@ -2,6 +2,7 @@ package come.mx.curso.unidad2.Ejercicio1.Excepciones1;
 import java.util.ArrayList;
 import  java.util.ConcurrentModificationException;
 import java.util.List;
+
 public class ModificacionLista {
     static void main(String[] args) {
         List <Integer> lista = new ArrayList<>();
