@@ -10,7 +10,7 @@ public class Actividad4 {
 
     public static void Actividad4() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("\n-- Actividad 4: Notificación por correo electrónico --");
+        System.out.println("-- Actividad 4: Notificación por correo electrónico --");
 
         String email;
         boolean esValido;

@@ -2,7 +2,7 @@ package come.mx.curso.Unidad3.Practica3;
 import java.util.ArrayList;
 import java.util.List;
 
-    abstract class Empleado {
+    public abstract class Empleado {
         //metodo concreto trabajar
         public void trabajar() {
             System.out.println("El empleado está trabajando.");
@@ -18,7 +18,7 @@ import java.util.List;
             System.out.println("Hola, soy un cocinero.");
         }
     }
-    class Mesero extends Empleado {
+     class Mesero extends Empleado {
         @Override
         public void saludar() {
             System.out.println("Hola, soy un mesero.");
@@ -38,8 +38,6 @@ import java.util.List;
                 e.saludar();
                 e.trabajar();
             }
-
-  
         }
     }
 
